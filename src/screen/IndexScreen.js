@@ -6,7 +6,7 @@ const IndexScreen = () => {
   const {data, addBlogPost} = useContext(BlockContext1); // Use BlockContext here
   return (
     <View>
-      <Text> index screen </Text>
+      <Text> IndexScreen </Text>
       <Button title="add post" onPress={addBlogPost}/>
       <FlatList
       data={data}

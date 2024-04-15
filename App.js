@@ -9,17 +9,16 @@ const navigator = createStackNavigator({
 },{
   initialRouteName:'paiman1',
   defaultNavigationOptions:{
-    title:'APP'
+    title:'arif paiman'
   }
 });
 const AppContainer =  createAppContainer(navigator);
 
 const App = () => {
-  return (
-    <Blockprovider>
-      <AppContainer />
-    </Blockprovider>
-  );
-};
-
-export default App;
+   return (
+     <Blockprovider>
+       <AppContainer />
+     </Blockprovider>
+   );
+ };
+ export default App;
